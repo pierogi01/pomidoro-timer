@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    display: inline;
+}
+.time{
+    display: block;
+    justify-content: center;
+}
+
+#timer-min{
+    font-size: 4em;
+}
+#timer-sec{
+    font-size: 4em;
+}
+
+button{
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: gray;
+    font-size: 1em;
+    display: inline-block;
+}
+
+button.start{
+    background-color: green;
+}
+button.stop{
+    background-color: rgb(230, 67, 67);
+}
